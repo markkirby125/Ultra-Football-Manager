@@ -1,6 +1,6 @@
 # Ultimate Football Director 24/25
 
-A football management simulator built with React and TypeScript. You handle squad management and team tactics, then run matches through a live text-commentary engine.
+**Football management simulator** built with React and TypeScript. You handle squad management and team tactics, then run matches through a live text-commentary engine.
 
 ## Features
 - **Match Engine**: Simulates games minute-by-minute. Outputs a text event feed, score updates, and accepts mid-game tactical substitutions.
