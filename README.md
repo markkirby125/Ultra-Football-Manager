@@ -1,13 +1,13 @@
 # Ultimate Football Director 24/25
 
-A rich, interactive football management simulator built with React and TypeScript. Assume the role of the Director, handle squad management, team tactics, and watch your decisions unfold in a dynamic Live Match mode with realtime text commentary.
+A football management simulator built with React and TypeScript. You handle squad management and team tactics, then run matches through a live text-commentary engine.
 
 ## Features
-- **Live Match Engine**: Simulate games minute-by-minute with an immersive event feed, live tactical substitutions, and real-time score updates.
-- **Squad Management**: Configure formations, player roles, and bench strategies.
-- **External Team Import**: Import and map external team data natively into the simulator environment.
-- **Data Persistence**: Uses an advanced client-side database system so your manager career is saved securely in your browser.
-- **AI Integrations**: Includes experimental prompt architecture for generating match commentary via external AI (Gemini/Grok) configuration in Settings.
+- **Match Engine**: Simulates games minute-by-minute. Outputs a text event feed, score updates, and accepts mid-game tactical substitutions.
+- **Squad Management**: Set formations, assign player roles, and manage the bench.
+- **Team Importer**: Load external team data into the simulator.
+- **Local Persistence**: Saves your career state to the browser's local storage.
+- **AI Commentary**: Experimental prompt architecture routes match events to an LLM (Gemini or Grok) for dynamic commentary generation.
 
 ## Tech Stack
 - React 19
