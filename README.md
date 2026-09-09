@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Ultimate Football Director 24/25
 
-# Run and deploy your AI Studio app
+A rich, interactive football management simulator built with React and TypeScript. Assume the role of the Director, handle squad management, team tactics, and watch your decisions unfold in a dynamic Live Match mode with realtime text commentary.
 
-This contains everything you need to run your app locally.
+## Features
+- **Live Match Engine**: Simulate games minute-by-minute with an immersive event feed, live tactical substitutions, and real-time score updates.
+- **Squad Management**: Configure formations, player roles, and bench strategies.
+- **External Team Import**: Import and map external team data natively into the simulator environment.
+- **Data Persistence**: Uses an advanced client-side database system so your manager career is saved securely in your browser.
+- **AI Integrations**: Includes experimental prompt architecture for generating match commentary via external AI (Gemini/Grok) configuration in Settings.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1CyTz0D1gACT6eBZ11F6ROQT6OhgITUA5
+## Tech Stack
+- React 19
+- Vite
+- Tailwind CSS
+- TypeScript
 
-## Run Locally
+## Getting Started
 
-**Prerequisites:**  Node.js
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/markkirby125/Ultra-Football-Manager.git
+   cd Ultra-Football-Manager
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## License
+MIT License
